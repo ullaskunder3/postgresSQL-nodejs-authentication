@@ -17,6 +17,9 @@ app.get('/users/register', (req,res)=>{
 app.get('/users/login', (req,res)=>{
     res.render('login')
 })
+app.get('/users/user', (req,res)=>{
+    res.render('user')
+})
 
 app.listen(5050, ()=>{
     console.log('server is listening');
