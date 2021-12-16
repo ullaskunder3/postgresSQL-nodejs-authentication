@@ -38,9 +38,10 @@ listing the database
 \l
 ```
 
-to connect to db
+connect to db
 
-```\c nodeuserlogin
+```bash
+\c nodeuserlogin
 ```
 
 creating table
