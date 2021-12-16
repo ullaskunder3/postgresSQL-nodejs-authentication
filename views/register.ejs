@@ -7,6 +7,26 @@
     <title>register</title>
 </head>
 <body>
-    <h1>register</h1>  
+    <h1>Resister</h1>
+    <form action="/users/register" method="post">
+        <div>
+            <input type="text" id="name" placeholder="username" required>
+        </div>
+        <div>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div>
+            <input type="password" id="password" name="password2" placeholder="Confirm Password" required>
+        </div>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+        <a href="/users/login" class="linkto">
+            Have an account? Log in
+        </a>
+    </form>
 </body>
 </html>
