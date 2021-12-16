@@ -44,6 +44,12 @@ form{
     padding: .6rem 2rem;
     border-radius: 30px;
     border: 1px solid #f8664c;
+
+    transition: .3s ease-in;
+}
+.submit input:hover{
+    background-color: #f8664c;
+    color: white;
 }
 .submit{
     margin-bottom: 1rem;
@@ -51,4 +57,16 @@ form{
 .linkto{
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 1px;
+
+    font-weight: bold;
+    padding-bottom: .52rem;
+    cursor: default;
+}
+.linkto span{
+    color: #f8664c;
+    cursor: pointer;
+    background-color: #e7988a33;
+
+    padding: .42rem 4px;
+    border-radius: 10px;
 }
