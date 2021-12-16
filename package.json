@@ -1,0 +1,14 @@
+{
+  "name": "postgressql-user-auth",
+  "version": "1.0.0",
+  "description": "Implementing user auth with nodeJS and PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ullas Kunder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
