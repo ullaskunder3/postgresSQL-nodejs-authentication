@@ -3,6 +3,8 @@ const app = express();
 
 app.set('view engine', 'ejs')
 
+app.use(express.static(__dirname+'/'))
+
 app.get('/', (req,res)=>{
     res.redirect('/landingpage')
 })
