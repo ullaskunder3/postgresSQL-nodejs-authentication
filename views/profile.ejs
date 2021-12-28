@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,14 @@
     <title>Hello</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <a href="/users/logout" class="linkto">
-        <span>LogOut</span>
-    </a>
+    <div class="profile__container">
+        <h1>Hello <%= user %></h1>
+        <a href="/users/login" class="linkto">
+            <span>LogOut</span>
+        </a>
+    </div>
 </body>
+
 </html>

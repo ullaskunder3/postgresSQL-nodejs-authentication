@@ -9,9 +9,16 @@
 </head>
 <body>
     <h1>Resister</h1>
+    <ul class="validate">
+        <% if(typeof errors != 'undefined'){ %>
+             <% errors.forEach(error=>{ %>
+                <li><%= error.message %></li>
+            <% })%>
+        <% } %>
+    </ul>
     <form action="/users/register" method="post">
         <div class="input">
-            <input type="text" id="name" placeholder="Username" required>
+            <input type="text" id="name" name="name" placeholder="Username" required>
         </div>
         <div class="input">
             <input type="email" id="email" name="email" placeholder="Email" required>
@@ -20,7 +27,7 @@
             <input type="password" id="password" name="password" placeholder="Password" required>
         </div>
         <div class="input">
-            <input type="password" id="password" name="password2" placeholder="Confirm Password" required>
+            <input type="password" id="password2" name="password2" placeholder="Confirm Password" required>
         </div>
         <div class="submit">
             <input type="submit" value="Register">
