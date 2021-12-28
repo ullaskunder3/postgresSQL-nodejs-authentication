@@ -9,15 +9,25 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form action="/users/register" method="post">
+    <ul class="validate">
+        <% if(messages.success_message){%>
+            <li><%= messages.success_message %></li>
+        <%}%>
+    </ul>
+    <ul class="validate">
+        <% if(messages.error){ %>
+            <li><%= messages.error %></li>
+        <%}%>
+    </ul>
+    <form action="/users/login" method="POST">
         <div class="input">
-            <input type="text" id="name" placeholder="Username" required>
+            <input type="text" id="name" name="name"  placeholder="name" required>
         </div>
         <div class="input">
             <input type="password" id="password" name="password" placeholder="Password" required>
         </div>
         <div class="submit">
-            <input type="submit" value="Register">
+            <input type="submit" value="login">
         </div>
         <a href="/users/register" class="linkto">
             Don't have an account? <span>Sign up</span>
