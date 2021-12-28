@@ -4,9 +4,18 @@
 
 example
 
-|      register        |     login             |
+|  Register & Login    |     Register          |
 |----------------------|-----------------------|
 |![ex1](./example1.png)| ![ex2](./example2.png)|
+
+- User flow
+
+|                        |                       |
+|------------------------|-----------------------|
+|![ex1](./example4.png)  | ![ex2](./example5.png)|
+![ex1](./example3.png)
+
+!BUGS __authentication__
 
 open
 
