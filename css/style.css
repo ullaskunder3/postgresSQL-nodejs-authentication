@@ -16,6 +16,7 @@ body{
 
     text-align: center;
     height: 100vh;
+    color: #5083b3;
 }
 .validate{
     /* width: 300px; */
@@ -33,6 +34,7 @@ form{
     padding: 1rem 0;
     border: 1px solid #a6b7c7;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
     display: flex;
     flex-direction: column;
